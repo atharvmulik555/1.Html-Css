@@ -1,0 +1,29 @@
+header{
+    text-align: center;
+}
+header marquee{
+    background-color: rgb(10, 135, 224);
+}
+
+main{
+     margin-left: 40%;
+    margin-right:40% ;
+    padding: 20px;
+    
+    border: 2px solid black;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+form button{
+    height: 30px;
+    background-color: aqua;
+}
