@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Info.html">Info</a>
+        </nav>
+    </header>
+    <main>
+        <form action="GET">
+            <section id="Personal">
+        Enter the Full name :<input type="text" name="name" id="n1"><br>
+        Enter the Email : <input type="text" name="Email" id="e1"><br>
+        Enter the phone number  : <input type="number" name="number" id="num"><br>
+        Enter the password : <input type="text" name="pass" id="p1"><br>
+        Confirm password : <input type="text" name="cpass" id="p2"><br>
+        Enter the Birt-Date :
+        <input type="date" name="bdate" id="b1">
+        </section>
+        <section id="Gender">
+            Select The Gender :
+            <input type="radio" name="g1" value="Male">Male
+            <input type="radio" name="g1" value="Female">Female 
+            <input type="radio" name="g1" name="other">other
+        </section>
+
+        <section id="Course">
+            <select name="Course">
+                <option value=""> Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+            </select>
+        </section>
+
+        <section id="Skills">
+            <input type="checkbox" name="c1" value="C">C
+            <input type="checkbox" name="c2" value="C++">C++
+            <input type="checkbox" name="c3" value="python">python
+            <input type="checkbox" name="c4" value="Html">Html
+        </section>
+
+        <section id="Address">
+            Enter the City Name :
+            <input type="text" name="city"><br>
+            Enter the state Name :
+            <input type="text" name="state"><br>
+            Enter the pin-code:
+            <input type="number" name="pin"><br>
+        </section>
+        
+        <div id="file">
+        <label for="photo">Upload a photo file</label>
+        <input type="file" name="photo" id="photo" accept="image/*"><br>
+        <input type="submit" value="Upload photo">
+        </div>
+
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+        </form>
+    </main>
+</body>
+</html>
