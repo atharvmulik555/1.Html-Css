@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 300px;
+    outline: auto;
+    padding: 15px;
+    margin: auto;
+}
+
+a:hover{
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 300px;
+    outline: auto;
+    padding: 15px;
+    margin: auto;
+}
